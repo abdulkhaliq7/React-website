@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {Button} from './Button';
+import { Button } from './Button';
 import './Footer.css';
+
 
 function Footer() {
     return (
@@ -12,7 +13,7 @@ function Footer() {
                    vacation deals
                </p>
                <p className='footer-subscription-text'>
-                   You can unsubscripe at any time. 
+                   You can unsubscribe at any time. 
                </p>
                <div className='input-areas'>
                     <form>
@@ -22,7 +23,7 @@ function Footer() {
                         placeholder='Your Email' 
                         className='footer-input' 
                         />
-                        <Button buttonStyle='btn--outline'>Subscribe</Button>
+                        <Button buttonStyle='btn--outline' >Subscribe</Button>
                     </form>
                </div>
            </section>
